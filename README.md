@@ -1,12 +1,12 @@
 # Array Size Extension
 
-![Array Size Extension Logo](https://raw.githubusercontent.com/VincentBoillotDevalliere/array-manager-extension/blob/master/assets/icon.png)
+![Array Size Extension Logo](https://raw.githubusercontent.com/VincentBoillotDevalliere/array-manager-extension/master/assets/icon.png)
 
 ## Never Lose Track of Your Array Sizes Again
 
 Array Size Extension provides intuitive inlay hints that display the size of arrays right in your JavaScript and TypeScript code. This makes it easier to understand and manage your code without having to manually count array elements.
 
-![Demo Screenshot](https://raw.githubusercontent.com/VincentBoillotDevalliere/array-size-extension/blob/master/assets/demo-screenshot.png)
+![Demo Screenshot](https://raw.githubusercontent.com/VincentBoillotDevalliere/array-manager-extension/master/assets/demo-screenshot.png)
 
 ## Features
 
@@ -14,10 +14,6 @@ Array Size Extension provides intuitive inlay hints that display the size of arr
 - **Support for Complex Array Types**: Works with arrays containing strings with commas, nested arrays, objects, and more
 - **JavaScript & TypeScript Support**: Fully compatible with both languages
 - **Lightweight & Performance-Optimized**: Minimal impact on your coding experience
-
-## Demo
-
-![Array Size Extension in Action](https://raw.githubusercontent.com/VincentBoillotDevalliere/array-size-extension/blob/master/assets/demo.gif)
 
 ## How It Works
 
