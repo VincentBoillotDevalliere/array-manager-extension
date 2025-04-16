@@ -2,7 +2,7 @@
   "name": "array-size-extension",
   "displayName": "Array Size Extension",
   "description": "Display the size of arrays in JavaScript and TypeScript code with intuitive inlay hints.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "VincentDevalliere",
   "license": "MIT",
   "engines": {
