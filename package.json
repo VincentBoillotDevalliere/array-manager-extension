@@ -1,0 +1,62 @@
+{
+  "name": "array-size-extension",
+  "displayName": "Array Size Extension",
+  "description": "Display the size of arrays in JavaScript and TypeScript code with intuitive inlay hints.",
+  "version": "0.0.1",
+  "publisher": "VincentDevalliere",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#1e3799",
+    "theme": "dark"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "array",
+    "javascript",
+    "typescript",
+    "inlay hints",
+    "productivity"
+  ],
+  "preview": true,
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "inlayHints": [
+      {
+        "language": "javascript"
+      },
+      {
+        "language": "typescript"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/vscode": "^1.70.0",
+    "typescript": "^4.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincentdevalliere/array-size-extension"
+  },
+  "homepage": "https://github.com/vincentdevalliere/array-size-extension/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/vincentdevalliere/array-size-extension/issues"
+  }
+}
