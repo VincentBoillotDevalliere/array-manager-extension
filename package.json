@@ -1,7 +1,7 @@
 {
   "name": "array-size-extension",
   "displayName": "Array Size Extension",
-  "description": "Display the size of arrays in JavaScript and TypeScript code with intuitive inlay hints.",
+  "description": "Display the size of arrays in JavaScript, TypeScript, and JSON code with intuitive inlay hints.",
   "version": "0.0.5",
   "publisher": "VincentDevalliere",
   "license": "MIT",
@@ -21,13 +21,16 @@
     "array",
     "javascript",
     "typescript",
+    "json",
     "inlay hints",
     "productivity"
   ],
   "preview": true,
   "activationEvents": [
     "onLanguage:javascript",
-    "onLanguage:typescript"
+    "onLanguage:typescript",
+    "onLanguage:json",
+    "onLanguage:jsonc"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -37,6 +40,12 @@
       },
       {
         "language": "typescript"
+      },
+      {
+        "language": "json"
+      },
+      {
+        "language": "jsonc"
       }
     ]
   },

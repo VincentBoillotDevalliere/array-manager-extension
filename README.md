@@ -4,7 +4,7 @@
 
 ## Never Lose Track of Your Array Sizes Again
 
-Array Size Extension provides intuitive inlay hints that display the size of arrays right in your JavaScript and TypeScript code. This makes it easier to understand and manage your code without having to manually count array elements.
+Array Size Extension provides intuitive inlay hints that display the size of arrays right in your JavaScript, TypeScript, and JSON code. This makes it easier to understand and manage your code without having to manually count array elements.
 
 <img src="https://raw.githubusercontent.com/VincentBoillotDevalliere/array-manager-extension/master/assets/demo-screenshot.png" alt="Demo Screenshot" width="700">
 
@@ -12,16 +12,28 @@ Array Size Extension provides intuitive inlay hints that display the size of arr
 
 - **Real-time Array Size Display**: See the size of arrays directly in your code as inlay hints
 - **Support for Complex Array Types**: Works with arrays containing strings with commas, nested arrays, objects, and more
-- **JavaScript & TypeScript Support**: Fully compatible with both languages
+- **JavaScript, TypeScript & JSON Support**: Fully compatible with these languages
 - **Lightweight & Performance-Optimized**: Minimal impact on your coding experience
 
 ## How It Works
 
-The extension analyzes your JavaScript and TypeScript code to identify array literals and displays their size directly in your editor. For example:
+The extension analyzes your JavaScript, TypeScript, and JSON code to identify array literals and displays their size directly in your editor. For example:
 
 ```javascript
+// JavaScript
 const simpleArray = [1, 2, 3, 4, 5]; // Shows "[5]"
 const complexArray = ['a,b', { name: 'test' }, [1, 2]]; // Shows "[3]"
+```
+
+```json
+// JSON
+{
+  "items": [1, 2, 3, 4, 5],  // Shows "[5]"
+  "nestedData": [
+    {"id": 1, "name": "Item 1"},
+    {"id": 2, "name": "Item 2"}
+  ]  // Shows "[2]"
+}
 ```
 
 ## Working With Complex Arrays
@@ -42,7 +54,7 @@ Array Size Extension intelligently handles complex scenarios:
 
 ## Usage
 
-The extension activates automatically when you open JavaScript or TypeScript files. You'll immediately see the size hints at the end of array declarations.
+The extension activates automatically when you open JavaScript, TypeScript, or JSON files. You'll immediately see the size hints at the end of array declarations.
 
 ## Feedback & Contributions
 

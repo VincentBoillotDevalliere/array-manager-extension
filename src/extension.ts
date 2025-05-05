@@ -188,12 +188,14 @@ export class ArraySizeInlayHintsProvider implements vscode.InlayHintsProvider {
 export function activate(context: vscode.ExtensionContext) {
     console.log('Extension "array-size-extension" activated!');
 
-    // Register the provider for JavaScript files (or TypeScript if desired)
+    // Register the provider for JavaScript, TypeScript, and JSON files
     context.subscriptions.push(
         vscode.languages.registerInlayHintsProvider(
             [
                 { scheme: 'file', language: 'javascript' },
-                { scheme: 'file', language: 'typescript' }
+                { scheme: 'file', language: 'typescript' },
+                { scheme: 'file', language: 'json' },
+                { scheme: 'file', language: 'jsonc' }  // JSONC supports comments
             ],
             new ArraySizeInlayHintsProvider()
         )
