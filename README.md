@@ -50,6 +50,10 @@ The extension activates automatically when you open JavaScript or TypeScript fil
 - [Request a Feature](https://github.com/VincentBoillotDevalliere/array-size-extension/issues)
 - [Contribute](https://github.com/VincentBoillotDevalliere/array-size-extension)
 
+## Buy Me a Coffee
+If you appreciate the extension and would like to support its development, feel free to [buy me a coffee](https://buymeacoffee.com/vincentboillotdevalliere)! Your support helps keep the project alive and improving. ☕💖
+
+
 ## License
 
 This extension is licensed under the [MIT License](LICENSE).
