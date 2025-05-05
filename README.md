@@ -20,8 +20,8 @@ Array Size Extension provides intuitive inlay hints that display the size of arr
 The extension analyzes your JavaScript and TypeScript code to identify array literals and displays their size directly in your editor. For example:
 
 ```javascript
-const simpleArray = [1, 2, 3, 4, 5]; // Shows "Size: 5"
-const complexArray = ['a,b', { name: 'test' }, [1, 2]]; // Shows "Size: 3"
+const simpleArray = [1, 2, 3, 4, 5]; // Shows "[5]"
+const complexArray = ['a,b', { name: 'test' }, [1, 2]]; // Shows "[3]"
 ```
 
 ## Working With Complex Arrays

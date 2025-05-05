@@ -37,7 +37,7 @@ export class ArraySizeInlayHintsProvider implements vscode.InlayHintsProvider {
                 // Create the inlay hint
                 const hint = new vscode.InlayHint(
                     position,
-                    ` [${count}]`,
+                    `[${count}]`,
                     vscode.InlayHintKind.Type
                 );
 
